@@ -1,0 +1,152 @@
+body {
+  color: #fffefe;
+    font-family: "Titillium Web", sans-serif;
+    background-image: url("images/Astro Gradient (3).png");
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 40px auto;
+  }
+  form{
+    text-align: center;
+  }
+ 
+  
+  .fas {
+    color: #ffffff;
+  }
+  
+  .search-box,
+  .form-btn,
+  .celsius-btn,
+  .fahrenheit-btn {
+    margin-top: 15px;
+    padding: 6px;
+    border: 0.7px solid #fffefe;
+  }
+  
+  .search-box,
+  .form-btn {
+    border-radius: 5px;
+  }
+  
+  .search-box {
+    width: 300px;
+    margin-left: 15px;
+  }
+  
+  .form-btn,
+  .celsius-btn,
+  .fahrenheit-btn {
+    background: none;
+    width: 40px;
+  }
+  
+  .form-btn:hover {
+    background: #f2f2f2;
+  }
+  
+  .celsius-btn,
+  .fahrenheit-btn {
+    border-radius: 10px;
+    color:#fffefe;
+
+
+  }
+  
+  .celsius-btn {
+    margin-left: 23px;
+  
+  }
+  #city{
+    font-size: 100px;
+    text-align: center;
+  }
+  
+  .date-description {
+    padding-left: 37px;
+    font-size: 30px;
+    text-transform: capitalize;
+    text-align: center;
+  }
+  
+  .icon {
+    position: relative;
+    bottom: 25px;
+    left: 85px;
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  h2 {
+    position: relative;
+    right: 6px;
+    font-size: 30px;
+  }
+  
+  .current-temp {
+    font-size: 100px;
+  }
+  
+  .weather-unit {
+    position: relative;
+    left: 2px;
+    bottom: 12px;
+    text-align: center;
+    font-size: 100px;
+  }
+  
+  .weather-extra {
+    text-align: center;
+    font-size: 25px;
+   
+  
+    bottom: 25px;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  .hour-forecast {
+    text-align: center;
+    margin: 50px 0 15px 0;
+    padding: 5px;
+  }
+  
+  .hour-forecast img {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+  }
+  
+  .col-2 {
+   
+    text-align: center;
+  }
+  
+  h6 {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .forecast-unit {
+    font-size: 11px;
+    position: relative;
+    bottom: 2.5px;
+  }
+  
+  .author a {
+    color: #4f0667;
+    text-decoration: underline;
+  }
+  
+  .author a:hover {
+    color: #570b6a;
+  }

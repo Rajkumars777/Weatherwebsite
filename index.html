@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather website</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Titillium+Web:400,600,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/2324bc7f0f.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="stylewet.css" />
+  </head>
+  <body>
+    <form>
+      <input 
+        type="text"
+        placeholder="Type a city"
+        autocomplete="off"
+        class="search-box"
+        id="searched-city"
+      />
+      <button type="submit" class="form-btn" id="submit-btn">
+        <i class="fas fa-search"></i>
+      </button>
+      <button type="button" class="form-btn" id="location-btn">
+        <i class="fas fa-location-arrow"></i>
+      </button>
+    </br>  </br>
+    </form>
+    <div class="col-3">
+      <label class="active-unit" id="celsius-label-btn">
+        <button class="celsius-btn" id="celsius">
+          ºC
+        </button>
+      </label>
+      <label class="alternative-unit" id="fahrenheit-label-btn">
+        <button class="fahrenheit-btn" id="fahrenheit">
+          ºF
+        </button>
+      </label>
+    </div>
+  </div>
+  </br>
+  <div class="row">
+    <div class="col date-description">
+ 
+      <span id="date"></span>
+      <br />
+      <span id="weather-description"></span>
+    </div>
+    <div class="col">
+      <img
+        src="http://openweathermap.org/img/wn/10d@2x.png"
+        alt="Rain"
+        class="icon"
+        id="weather-icon"
+      />
+    </div>
+    <div class="col">
+      <h2>
+        <span class="current-temp" id="temp"></span
+        ><small class="weather-unit unit">ºC</small>
+      </h2>
+    </div>
+  </div>
+  <h1 id="city"></h1>
+
+
+</br>
+</br>
+  <div class="weather-extra">
+    <ul>
+      <li>Humidity: <span id="humidity"></span>%</li>
+      <li>Wind: <span id="wind"></span> km/h</li>
+    </ul>
+  </div>
+  <div class="container">
+  <div class="row hour-forecast" id="forecast"></div>
+</div>
+
+    <script src="jswet.js"></script>
+  </body>
+</html>
