@@ -246,5 +246,5 @@ function formatDate(timestamp) {
   
   let defaultUnit = document.querySelector(".active-unit");
   
-  search("Porto");
+  search("Chennai");
   
