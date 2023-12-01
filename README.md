@@ -1,4 +1,3 @@
-# Weatherwebsite
 # Weather Website
 
 ![Weather Website Logo](link_to_logo_image)
